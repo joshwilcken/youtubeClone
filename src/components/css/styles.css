@@ -1,0 +1,71 @@
+.header {
+    height: 56px;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#ham {
+    margin-left: 20px;
+    width: 20px;
+    height: 20px; 
+}
+.header img {
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+}
+.header input {
+    width: 60%;
+    height: 30px;
+}
+#upload {
+    height: 20px;
+    width: 20px;
+    margin-left: 100px;
+}
+#bell {
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+}
+#grid {
+    height: 20px;
+    width: 20px;
+    margin-left: 30px;
+
+}
+#picture {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.video-detail {
+    background-color: #FAFAFA
+}
+.list-group-item {
+    background-color: #FAFAFA
+}
+.video-detail .details {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.list-group-item {
+    cursor: pointer;
+}
+.list-group-item:hover {
+    background-color: #eee;
+}
+.channel {
+    color: grey;
+    font-size: .8rem;
+}
+.description {
+    font-size: 1rem;
+}
+.title {
+    font-size: 1.8rem
+}
